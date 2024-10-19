@@ -8,7 +8,7 @@ def convertir():
         if not usd:  # Verifica si el campo está vacío
             raise ValueError("El campo no puede estar vacío.")
         
-        usd = float(usd)  # Intenta convertir el valor a flotante
+        usd = float(usd) 
         tasa = 513.70  # Actualiza la tasa según la conversión actual (17 de octubre 2024)
         crc = usd * tasa
         resultado.config(text=f"{crc:.2f} CRC")
@@ -26,7 +26,7 @@ def salir():
         ventana.destroy()
 
 # Configuración de la ventana principal
-ventana = tk.Tk()  # Asegúrate de ejecutar esta línea para crear la ventana
+ventana = tk.Tk()  
 ventana.title("Conversor de Moneda USD a CRC")
 ventana.geometry("300x150")  # Tamaño ajustado para que sea adecuado
 
@@ -47,4 +47,4 @@ resultado.grid(row=3, column=0, columnspan=2, pady=5)
 ventana.protocol("WM_DELETE_WINDOW", salir)
 
 # Ejecutar la aplicación
-ventana.mainloop()  # Asegúrate de tener esta línea para iniciar el bucle de la aplicación
+ventana.mainloop()  
