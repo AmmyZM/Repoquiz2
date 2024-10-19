@@ -32,12 +32,12 @@ La tasa de conversión utilizada es: 513.70 colones
 ## Imágenes
 *Interfaz principal*
 
-![Interfaz del conversor de moneda](Imagenes\VentanaConversor.png)
+![Interfaz del conversor de moneda](.\Imagenes\VentanaConversor.png)
 
 *Aviso de error*
 
-![Interfaz del conversor de moneda](Imagenes\ValorNoValido.png)
+![Interfaz del conversor de moneda](.\Imagenes\ValorNoValido.png)
 
 *Verificación de salida*
 
-![Interfaz del conversor de moneda](Imagenes\Salir.png)
+![Interfaz del conversor de moneda](.\Imagenes\Salir.png)
